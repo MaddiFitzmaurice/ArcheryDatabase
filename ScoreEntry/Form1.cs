@@ -1,4 +1,5 @@
 using MySql.Data.MySqlClient;
+using System.ComponentModel;
 using System.Data;
 
 namespace ScoreEntry
@@ -11,6 +12,7 @@ namespace ScoreEntry
         string _password = "280496";
 
         MySqlConnection _con;
+        int _stagingID;
 
         public ScoreEntry()
         {
@@ -45,6 +47,37 @@ namespace ScoreEntry
 
         }
 
-       
+
+
+        private void ButtonSubmit_Click(object sender, EventArgs e)
+        {
+            if (_con.State == ConnectionState.Open)
+            {
+                MySqlCommand cmd;
+
+                // Checks to see if a record already exists for StagingID
+                cmd = new MySqlCommand("SELECT * FROM ArrowStaging WHERE StagingID = " + _stagingID, _con);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                MessageBox.Show(reader.Read().ToString());
+                reader.Close();
+            }
+            else
+            {
+                MessageBox.Show("No database connected.");
+            }
+        }
+
+        // Store StagingID
+        private void FieldStagingId_TextChanged(object sender, EventArgs e)
+        {
+            string input = FieldStagingId.Text;
+            input = input.Trim();
+
+            if (input != "")
+            {
+                _stagingID = Int32.Parse(input);
+                //MessageBox.Show(input);
+            }
+        }
     }
 }

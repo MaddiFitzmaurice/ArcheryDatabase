@@ -47,6 +47,9 @@
             this.FieldArrow4 = new System.Windows.Forms.TextBox();
             this.FieldArrow5 = new System.Windows.Forms.TextBox();
             this.FieldArrow6 = new System.Windows.Forms.TextBox();
+            this.FieldTotalScore = new System.Windows.Forms.TextBox();
+            this.ButtonSubmit = new System.Windows.Forms.Button();
+            this.FieldStagingId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // ButtonX
@@ -183,7 +186,7 @@
             // FieldArrow1
             // 
             this.FieldArrow1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FieldArrow1.Location = new System.Drawing.Point(1197, 325);
+            this.FieldArrow1.Location = new System.Drawing.Point(1371, 79);
             this.FieldArrow1.Name = "FieldArrow1";
             this.FieldArrow1.PlaceholderText = "Arrow 1";
             this.FieldArrow1.Size = new System.Drawing.Size(150, 55);
@@ -194,7 +197,7 @@
             // FieldArrow2
             // 
             this.FieldArrow2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FieldArrow2.Location = new System.Drawing.Point(1197, 434);
+            this.FieldArrow2.Location = new System.Drawing.Point(1371, 194);
             this.FieldArrow2.Name = "FieldArrow2";
             this.FieldArrow2.PlaceholderText = "Arrow 2";
             this.FieldArrow2.Size = new System.Drawing.Size(150, 55);
@@ -204,7 +207,7 @@
             // FieldArrow3
             // 
             this.FieldArrow3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FieldArrow3.Location = new System.Drawing.Point(1197, 538);
+            this.FieldArrow3.Location = new System.Drawing.Point(1371, 303);
             this.FieldArrow3.Name = "FieldArrow3";
             this.FieldArrow3.PlaceholderText = "Arrow 3";
             this.FieldArrow3.Size = new System.Drawing.Size(150, 55);
@@ -214,7 +217,7 @@
             // FieldArrow4
             // 
             this.FieldArrow4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FieldArrow4.Location = new System.Drawing.Point(1197, 670);
+            this.FieldArrow4.Location = new System.Drawing.Point(1371, 418);
             this.FieldArrow4.Name = "FieldArrow4";
             this.FieldArrow4.PlaceholderText = "Arrow 4";
             this.FieldArrow4.Size = new System.Drawing.Size(150, 55);
@@ -224,7 +227,7 @@
             // FieldArrow5
             // 
             this.FieldArrow5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FieldArrow5.Location = new System.Drawing.Point(1197, 814);
+            this.FieldArrow5.Location = new System.Drawing.Point(1371, 535);
             this.FieldArrow5.Name = "FieldArrow5";
             this.FieldArrow5.PlaceholderText = "Arrow 5";
             this.FieldArrow5.Size = new System.Drawing.Size(150, 55);
@@ -234,18 +237,53 @@
             // FieldArrow6
             // 
             this.FieldArrow6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FieldArrow6.Location = new System.Drawing.Point(1197, 938);
+            this.FieldArrow6.Location = new System.Drawing.Point(1371, 659);
             this.FieldArrow6.Name = "FieldArrow6";
             this.FieldArrow6.PlaceholderText = "Arrow 6";
             this.FieldArrow6.Size = new System.Drawing.Size(150, 55);
             this.FieldArrow6.TabIndex = 18;
             this.FieldArrow6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // FieldTotalScore
+            // 
+            this.FieldTotalScore.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FieldTotalScore.Location = new System.Drawing.Point(1371, 770);
+            this.FieldTotalScore.Name = "FieldTotalScore";
+            this.FieldTotalScore.PlaceholderText = "Arrow 6";
+            this.FieldTotalScore.Size = new System.Drawing.Size(150, 55);
+            this.FieldTotalScore.TabIndex = 19;
+            this.FieldTotalScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSubmit
+            // 
+            this.ButtonSubmit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ButtonSubmit.Location = new System.Drawing.Point(1166, 1017);
+            this.ButtonSubmit.Name = "ButtonSubmit";
+            this.ButtonSubmit.Size = new System.Drawing.Size(400, 121);
+            this.ButtonSubmit.TabIndex = 20;
+            this.ButtonSubmit.Text = "Submit Score";
+            this.ButtonSubmit.UseVisualStyleBackColor = true;
+            this.ButtonSubmit.Click += new System.EventHandler(this.ButtonSubmit_Click);
+            // 
+            // FieldStagingId
+            // 
+            this.FieldStagingId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FieldStagingId.Location = new System.Drawing.Point(920, 79);
+            this.FieldStagingId.Name = "FieldStagingId";
+            this.FieldStagingId.PlaceholderText = "StagingID";
+            this.FieldStagingId.Size = new System.Drawing.Size(207, 55);
+            this.FieldStagingId.TabIndex = 21;
+            this.FieldStagingId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FieldStagingId.TextChanged += new System.EventHandler(this.FieldStagingId_TextChanged);
+            // 
             // ScoreEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1642, 1198);
+            this.Controls.Add(this.FieldStagingId);
+            this.Controls.Add(this.ButtonSubmit);
+            this.Controls.Add(this.FieldTotalScore);
             this.Controls.Add(this.FieldArrow6);
             this.Controls.Add(this.FieldArrow5);
             this.Controls.Add(this.FieldArrow4);
@@ -293,5 +331,8 @@
         private TextBox FieldArrow4;
         private TextBox FieldArrow5;
         private TextBox FieldArrow6;
+        private TextBox FieldTotalScore;
+        private Button ButtonSubmit;
+        private TextBox FieldStagingId;
     }
 }
