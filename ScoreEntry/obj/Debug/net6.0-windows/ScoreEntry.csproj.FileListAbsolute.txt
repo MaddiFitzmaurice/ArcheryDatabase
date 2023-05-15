@@ -1,0 +1,17 @@
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\ScoreEntry.exe
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\ScoreEntry.deps.json
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\ScoreEntry.runtimeconfig.json
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\ScoreEntry.dll
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\ScoreEntry.pdb
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.csproj.AssemblyReference.cache
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.ScoreEntry.resources
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.csproj.GenerateResource.cache
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.AssemblyInfoInputs.cache
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.AssemblyInfo.cs
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.csproj.CoreCompileInputs.cache
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.dll
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\refint\ScoreEntry.dll
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.pdb
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.genruntimeconfig.cache
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ref\ScoreEntry.dll
