@@ -16,5 +16,12 @@ namespace ScoreEntry
         {
             InitializeComponent();
         }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            ScoreEntryForm scoreEntryForm = new ScoreEntryForm();
+            scoreEntryForm.Show();
+            this.Hide();
+        }
     }
 }
