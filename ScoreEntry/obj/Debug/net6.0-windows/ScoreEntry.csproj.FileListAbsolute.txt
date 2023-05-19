@@ -4,7 +4,6 @@ C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debu
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\ScoreEntry.dll
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\ScoreEntry.pdb
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.csproj.AssemblyReference.cache
-C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.ScoreEntry.resources
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.csproj.GenerateResource.cache
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.AssemblyInfoInputs.cache
@@ -31,3 +30,5 @@ C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debu
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.csproj.CopyComplete
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.LoginForm.resources
+C:\Users\maddi\Documents\University\COS20031\ArcheryDatabase\ScoreEntry\obj\Debug\net6.0-windows\ScoreEntry.ScoreEntryForm.resources

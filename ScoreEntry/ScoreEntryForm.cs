@@ -5,7 +5,7 @@ using System.Data;
 
 namespace ScoreEntry
 {
-    public partial class ScoreEntry : Form
+    public partial class ScoreEntryForm : Form
     {
         string _server = "feenix-mariadb.swin.edu.au";
         string _database = "s103779510_db";
@@ -39,7 +39,7 @@ namespace ScoreEntry
         MySqlConnection _con;
         Score _score;
 
-        public ScoreEntry()
+        public ScoreEntryForm()
         {
             // Initialise server connection
             InitializeComponent();

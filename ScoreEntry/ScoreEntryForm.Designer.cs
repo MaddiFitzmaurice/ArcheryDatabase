@@ -1,6 +1,6 @@
 ﻿namespace ScoreEntry
 {
-    partial class ScoreEntry
+    partial class ScoreEntryForm
     {
         /// <summary>
         ///  Required designer variable.
