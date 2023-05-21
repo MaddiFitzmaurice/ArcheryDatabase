@@ -31,7 +31,7 @@
             this.EmailField = new System.Windows.Forms.TextBox();
             this.EmailLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.PasswordField = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.LoginButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -44,6 +44,7 @@
             this.EmailField.PlaceholderText = "example@example.com";
             this.EmailField.Size = new System.Drawing.Size(523, 55);
             this.EmailField.TabIndex = 0;
+            this.EmailField.TextChanged += new System.EventHandler(this.EmailField_TextChanged);
             // 
             // EmailLabel
             // 
@@ -65,14 +66,15 @@
             this.PasswordLabel.TabIndex = 2;
             this.PasswordLabel.Text = "Password";
             // 
-            // textBox1
+            // PasswordField
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(360, 387);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "****";
-            this.textBox1.Size = new System.Drawing.Size(523, 55);
-            this.textBox1.TabIndex = 3;
+            this.PasswordField.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PasswordField.Location = new System.Drawing.Point(360, 387);
+            this.PasswordField.Name = "PasswordField";
+            this.PasswordField.PlaceholderText = "****";
+            this.PasswordField.Size = new System.Drawing.Size(523, 55);
+            this.PasswordField.TabIndex = 3;
+            this.PasswordField.TextChanged += new System.EventHandler(this.PasswordField_TextChanged);
             // 
             // label1
             // 
@@ -102,7 +104,7 @@
             this.ClientSize = new System.Drawing.Size(1104, 644);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PasswordField);
             this.Controls.Add(this.PasswordLabel);
             this.Controls.Add(this.EmailLabel);
             this.Controls.Add(this.EmailField);
@@ -118,7 +120,7 @@
         private TextBox EmailField;
         private Label EmailLabel;
         private Label PasswordLabel;
-        private TextBox textBox1;
+        private TextBox PasswordField;
         private Label label1;
         private Button LoginButton;
     }
