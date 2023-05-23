@@ -97,8 +97,12 @@ namespace ScoreEntry
             {
                 MySqlCommand cmd;
 
-                cmd = new MySqlCommand(String.Format("INSERT INTO End (TimeShot, ArcherID, RangeID, RoundID, Score, NumBullseyes)" +
-                    " VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}');", _score.TimeShot, _score.ArcherID, _score.RangeID, _score.RoundID, _score.TotalScore, _score.TotalBullseyes), _con);
+                cmd = new MySqlCommand(String.Format("INSERT INTO ArrowStaging (Arrow1, Arrow2, Arrow3, Arrow4, Arrow5, Arrow6, " +
+                    "Arrow1Bullseye, Arrow2Bullseye, Arrow3Bullseye, Arrow4Bullseye, Arrow5Bullseye, Arrow6Bullseye, TimeShot, RangeID, " +
+                    "RoundID, ArcherID) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}', '{11}', '{12}', '{13}'," +
+                    "'{14}', '{15}');", _score.Arrow1, _score.Arrow2, _score.Arrow3, _score.Arrow4, _score.Arrow5, _score.Arrow6, _score.Arrow1Bullseye, 
+                    _score.Arrow2Bullseye, _score.Arrow3Bullseye, _score.Arrow4Bullseye, _score.Arrow5Bullseye, _score.Arrow6Bullseye, _score.TimeShot, 
+                    _score.RangeID, _score.RoundID, _score.ArcherID), _con);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("End created.");
             }

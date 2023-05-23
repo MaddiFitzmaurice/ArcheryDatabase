@@ -26,18 +26,12 @@ namespace ScoreEntry
 
         private void EmailField_TextChanged(object sender, EventArgs e)
         {
-            if (EmailField.Text == "INSERT INTO")
-            {
-                MessageBox.Show("STOP THAT");
-            }
+            
         }
 
         private void PasswordField_TextChanged(object sender, EventArgs e)
         {
-            if (PasswordField.Text == "INSERT INTO")
-            {
-                MessageBox.Show("STOP THAT");
-            }
+            
         }
     }
 }

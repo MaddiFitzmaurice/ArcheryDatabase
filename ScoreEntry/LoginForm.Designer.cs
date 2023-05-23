@@ -80,11 +80,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(183, 49);
+            this.label1.Location = new System.Drawing.Point(147, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(732, 72);
+            this.label1.Size = new System.Drawing.Size(824, 72);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Archery Database Score Entry";
+            this.label1.Text = "Archery Database Recorder Login";
             // 
             // LoginButton
             // 

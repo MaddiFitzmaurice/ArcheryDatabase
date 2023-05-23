@@ -157,7 +157,7 @@
             this.ButtonSubmit.Name = "ButtonSubmit";
             this.ButtonSubmit.Size = new System.Drawing.Size(400, 121);
             this.ButtonSubmit.TabIndex = 20;
-            this.ButtonSubmit.Text = "Create End";
+            this.ButtonSubmit.Text = "Send Score";
             this.ButtonSubmit.UseVisualStyleBackColor = true;
             this.ButtonSubmit.Click += new System.EventHandler(this.ButtonSubmit_Click);
             // 
@@ -352,11 +352,11 @@
             // 
             this.TitleLabel.AutoSize = true;
             this.TitleLabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TitleLabel.Location = new System.Drawing.Point(214, 43);
+            this.TitleLabel.Location = new System.Drawing.Point(315, 46);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(795, 72);
+            this.TitleLabel.Size = new System.Drawing.Size(631, 72);
             this.TitleLabel.TabIndex = 39;
-            this.TitleLabel.Text = "Staging Table To End Table Entry";
+            this.TitleLabel.Text = "Staging Table Score Entry";
             // 
             // Arrow1Label
             // 
@@ -418,7 +418,7 @@
             this.Arrow6Label.TabIndex = 45;
             this.Arrow6Label.Text = "Arrow 6";
             // 
-            // ScoreEntry
+            // ScoreEntryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -456,7 +456,7 @@
             this.Controls.Add(this.FieldArrow2);
             this.Controls.Add(this.FieldArrow1);
             this.Controls.Add(this.ButtonConnect);
-            this.Name = "ScoreEntry";
+            this.Name = "ScoreEntryForm";
             this.Text = "ScoreEntry";
             this.ResumeLayout(false);
             this.PerformLayout();
